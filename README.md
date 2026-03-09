@@ -42,23 +42,23 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-![cat < file1 output](img/cat_file1.png)
+![Alt text](<../img/cat file1.png>)
 
 
 cat < file2
 ## OUTPUT
-![cat < file2 output](img/cat_file2.png)
+![Alt text](<../img/cat file2.png>)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- ![cmp file1 file2 output](img/cmp12.png)
+![Alt text](<../img/cmp 1,2.png>)
 comm file1 file2
  ## OUTPUT
-![comm file1 file2 output](img/comm12.png)
+![Alt text](<../img/comm 1,2.png>)
 diff file1 file2
 ## OUTPUT
-![diff file1 file2 output](img/diff12.png)
+![Alt text](<../img/diff 1,2.png>)
 
 #Filters
 
@@ -509,7 +509,7 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
-![Alt text](../img/511.png)
+/home/jeyasri/os/ex01/img/511.png
 
 
 chmod 755 strcomp.sh
